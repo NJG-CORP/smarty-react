@@ -44,7 +44,7 @@
     "postinstall": "electron-builder install-app-deps",
     "preelectron-pack": "yarn build",
     "electron-pack": "electron-builder -lw",
-    "electron-pack-linux": "electron-builder --linux:arm"
+    "electron-pack-linux": "electron-builder --linux --armv7l"
   },
   "eslintConfig": {
     "extends": "react-app"
