@@ -1,0 +1,22 @@
+html,
+body {
+    height: 100%;
+}
+.calendar-table {
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.calendar-table th,td {
+    text-align: center;
+}
+
+.active-task {
+    background-color: #77dd77;
+    color:white;
+    font-weight: bold;
+}
+
+#root {
+    height: 100%;
+}
